@@ -1,0 +1,12 @@
+//Jenkins pipeline AB-101
+
+pipeline {
+	agent any
+
+	stages {
+		stage {
+			steps {
+			}
+		}
+	}
+}
