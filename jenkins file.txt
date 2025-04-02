@@ -46,13 +46,3 @@ pipeline {
 		}
 	}
 }
-
-//Jenkins pipeline AB-108
-
-	stage ("git clone"){
-		step{
-			//logic
-		}
-	}
-}
-
