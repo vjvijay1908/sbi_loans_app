@@ -17,6 +17,16 @@ pipeline {
 			steps {
 			}
 		}
+//Jenkins pipeline AB-104
+
+pipeline {
+	agent any
+
+	stages {
+		stage {
+			steps {
+			}
+		}
 
 //Jenkins pipeline AB-102
 	stage ("git clone"){
