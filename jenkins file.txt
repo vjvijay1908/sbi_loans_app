@@ -17,5 +17,11 @@ pipeline {
 			steps {
 			}
 		}
+
+//Jenkins pipeline AB-102
+	stage ("git clone"){
+		step{
+			//logic
+		}
 	}
 }
