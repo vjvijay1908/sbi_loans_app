@@ -56,3 +56,12 @@ pipeline {
 	}
 }
 
+//Jenkins pipeline AB-110
+
+	stage ("git clone"){
+		step{
+			//logic
+		}
+	}
+}
+
